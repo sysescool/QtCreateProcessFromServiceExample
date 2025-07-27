@@ -17,5 +17,5 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core REQUIRED)
 
 # 添加子目录
 add_subdirectory(qtservice)       # qt service 静态库
-#add_subdirectory(QServiceExample) # 使用静态库的示例
+add_subdirectory(QServiceExample) # 使用静态库的示例
 #add_subdirectory(tests)           # 单元测试目录
